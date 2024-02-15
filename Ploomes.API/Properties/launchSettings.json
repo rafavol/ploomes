@@ -1,0 +1,44 @@
+{
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5275"
+    },
+    "https": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_HTTPS_PORT": "25101",
+        "ASPNETCORE_HTTP_PORT": "25100",
+        "JWT_API_KEY": "askdjaskdjasiodjo2189ye897Y78Syc7832gh8769r&*(¨*(W6dy21387ghd78sfy3478ghr37286fgh768dgfygh673y4gber216793tr6G¨YASDGFYE&G#&*(¨TGDGf768g346ygr768dftg¨&(*GHS¨(&dfg3697gds67fg693yg(¨&GSdf697g3679g¨gsf96396wgS67DFGiasjdios"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:25101;http://localhost:25100"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:36985",
+      "sslPort": 44347
+    }
+  }
+}
